@@ -61,11 +61,12 @@ Each hypothesis was evaluated and visualized in [`notebooks/EDA.ipynb`](notebook
 
 ## 📁 Repository Structure  
 
-```text
+```
 04_used_car_sales_dashboard/
 ├── app.py                  # Streamlit app script
 ├── vehicles_us.csv         # Dataset
 ├── requirements.txt        # Python dependencies
+├── .gitignore              # Git ignore rules
 ├── README.md               # Project overview
 └── notebooks/
     └── EDA.ipynb           # Exploratory data analysis (EDA)

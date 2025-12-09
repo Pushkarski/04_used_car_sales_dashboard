@@ -1,69 +1,74 @@
 # Used Car Sales Dashboard
 
-## Project Description  
-This interactive dashboard explores used car sales data from the US. Built with **Python**, **Plotly**, and **Streamlit**, the app allows users to investigate how various vehicle attributes affect **price** and **listing duration**.
+This project explores used car sales data from the US and turns it into an **interactive analytical dashboard**.  
+Built with **Python**, **Plotly**, and **Streamlit**, the app helps users understand how vehicle characteristics affect **price** and **time on market**.
+
+> *Completed as part of the TripleTen Data Analysis Bootcamp.*
 
 ---
 
-## Project Goals  
-- Identify key factors that influence vehicle price  
-- Explore how vehicle condition, type, mileage, and fuel type affect market behavior  
-- Provide actionable insights for buyers and sellers  
+## 🚗 Project Goals  
+
+- Identify key factors that influence used car prices  
+- Explore how **condition**, **type**, **mileage**, and **fuel type** affect market behavior  
+- Provide actionable insights for **buyers** and **sellers**
 
 ---
 
-## Hypotheses Tested
+## 🔍 Hypotheses Tested  
 
-The following hypotheses were tested using exploratory data analysis (EDA):
+Using exploratory data analysis (EDA), the following hypotheses were tested:
 
 1. **Higher mileage** leads to lower vehicle prices.  
 2. **Newer vehicles** (recent model years) are generally more expensive.  
-3. **Better vehicle condition** is associated with both higher price and faster sales.  
-4. **Vehicle type** (e.g., SUV, truck, sedan) affects pricing — SUVs and trucks tend to cost more.  
+3. **Better vehicle condition** is associated with both higher prices and faster sales.  
+4. **Vehicle type** (SUV, truck, sedan, etc.) affects pricing — SUVs and trucks tend to cost more.  
 5. **Fuel type** influences both **price** and **listing duration** — electric and hybrid vehicles show distinct patterns.
 
-Each hypothesis was evaluated and visualized in the [`EDA.ipynb`](notebooks/EDA.ipynb) notebook using boxplots, histograms, scatter plots, and density heatmaps.
+Each hypothesis was evaluated and visualized in [`notebooks/EDA.ipynb`](notebooks/EDA.ipynb) using boxplots, histograms, scatter plots, and density heatmaps.
 
 ---
 
-## Tech Stack  
-- **Python**: pandas, plotly, streamlit  
-- **Jupyter Notebook** (EDA)  
-- **Git / GitHub**: version control  
-- **Streamlit Cloud**: app deployment  
+## 🧰 Tech Stack  
+
+- **Python**: `pandas`, `plotly`, `streamlit`  
+- **Jupyter Notebook** for EDA  
+- **Git / GitHub** for version control  
+- **Streamlit Cloud / Render** for app deployment  
 
 ---
 
-## Key Insights  
-- **Newer and better-condition vehicles** are priced significantly higher  
-- **Mileage above 100,000 miles** reduces price by 25–40%  
-- **SUVs and trucks** are priced $5,000–10,000 higher than sedans  
-- **Electric and hybrid cars** stay longer on the market but retain value better  
+## 📊 Key Insights  
+
+- **Newer and better-condition vehicles** are priced significantly higher.  
+- **Mileage above 100,000 miles** reduces price roughly by **25–40%**.  
+- **SUVs and trucks** are on average **$5,000–10,000** more expensive than sedans.  
+- **Electric and hybrid cars** tend to stay on the market longer but **retain value better**.
 
 ---
 
-## How to Use  
-1. Open the live dashboard  
-2. Use the filters in the sidebar to select vehicle condition and type  
-3. Explore interactive graphs to gain insights on price and time on market  
+## 🚀 How to Use the Dashboard  
 
-[**Launch Streamlit App**](https://car-sales-dashboard-cakl.onrender.com)
+1. Open the live dashboard:  
+   👉 [**Launch Streamlit App**](https://car-sales-dashboard-cakl.onrender.com)  
+2. Use the filters in the sidebar to choose **vehicle condition**, **type**, and other parameters.  
+3. Explore interactive charts to analyze **price** and **time on market** for different car segments.
 
-Note: The dashboard highlights the most interactive and user-relevant insights from the full exploratory analysis. For a complete review of all tested hypotheses and visualizations, see the EDA.ipynb notebook in the notebooks/ folder.
+> The dashboard focuses on the most interactive and decision-relevant insights.  
+> For a full review of all hypotheses and visualizations, see `notebooks/EDA.ipynb`.
 
 ---
 
-## Repository Structure  
-```
-car-sales-dashboard/
+## 📁 Repository Structure  
+
+```text
+04_used_car_sales_dashboard/
 ├── app.py                  # Streamlit app script
 ├── vehicles_us.csv         # Dataset
 ├── requirements.txt        # Python dependencies
 ├── README.md               # Project overview
 └── notebooks/
     └── EDA.ipynb           # Exploratory data analysis (EDA)
-```
-
 ---
 
 ## Status  

@@ -69,9 +69,3 @@ Each hypothesis was evaluated and visualized in [`notebooks/EDA.ipynb`](notebook
 ├── README.md               # Project overview
 └── notebooks/
     └── EDA.ipynb           # Exploratory data analysis (EDA)
----
-
-## Status  
-- EDA complete  
-- Dashboard built with Streamlit  
-- Deployed on Render  
